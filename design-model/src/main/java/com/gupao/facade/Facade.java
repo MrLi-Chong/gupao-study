@@ -1,4 +1,4 @@
-package com.gupao.facade.general;
+package com.gupao.facade;
 
 public class Facade {
     SubSystemA subSystemA = new SubSystemA();

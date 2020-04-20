@@ -1,4 +1,4 @@
-package com.gupao.facade.general;
+package com.gupao.facade;
 
 /**
  * 门面模式

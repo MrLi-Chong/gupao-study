@@ -1,90 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b979e2cc-5e88-41b6-bb17-7605d520cc80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/adapter/classadapter/Ac220.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/adapter/classadapter/DC5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/adapter/classadapter/PowerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/adapter/classadapter/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/adapter/objectadapter/Ac220.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/adapter/objectadapter/DC5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/adapter/objectadapter/PowerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/adapter/objectadapter/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/AbstractCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/ICourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/INote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/IVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/JavaCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/JavaNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/JavaVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/PythonCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/PythonNote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/PythonVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/builderchain/AuthHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/builderchain/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/builderchain/LoginHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/builderchain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/builderchain/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/builderchain/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/builderchain/ValidateHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/general/AuthHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/general/Handler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/general/LoginHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/general/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/general/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/general/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/general/ValidateHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/composite/Directory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/composite/FileDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/composite/PathDirectory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/composite/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/decorator/gupaoclub/BaseNoLoginTab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/decorator/gupaoclub/BaseNoLoginTabDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/decorator/gupaoclub/NoLoginTab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/decorator/gupaoclub/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/decorator/gupaoclub/VVipLoginTabDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/decorator/gupaoclub/VipLoginTabDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/decorator/v1/BatterCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/decorator/v1/BatterCakeWithEgg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/decorator/v1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/decorator/v2/BaseBatterCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/decorator/v2/BatterCake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/decorator/v2/BatterCakeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/decorator/v2/EggDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/decorator/v2/SauageDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/decorator/v2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/delegate/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/delegate/EmployeeA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/delegate/EmployeeB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/delegate/IEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/delegate/Leader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/delegate/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/facade/general/Facade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/facade/general/SubSystemA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/facade/general/SubSystemB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/facade/general/SubSystemC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/facade/general/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/flyweight/jdk/IntegerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/flyweight/jdk/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/flyweight/ticket/ITicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/flyweight/ticket/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/flyweight/ticket/TicketFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/flyweight/ticket/TrainTicket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/strategy/AliPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/strategy/JdPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/strategy/MsyResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/strategy/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/strategy/PayStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/strategy/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/strategy/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/strategy/WechatPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/template/AbstractCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/template/JavaCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/template/PythonCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/template/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-model/target/classes/com/gupao/proxy/dynamic/cglibproxy/CglibMeiPo.class" beforeDir="false" afterPath="$PROJECT_DIR$/design-model/target/classes/com/gupao/proxy/dynamic/cglibproxy/CglibMeiPo.class" afterDir="false" />
-    </list>
+    <list default="true" id="b979e2cc-5e88-41b6-bb17-7605d520cc80" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/design-model/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -112,7 +29,7 @@
           <entry key="AbstractCourse" value="1" />
           <entry key="ICourse" value="1" />
           <entry key="class" value="3" />
-          <entry key="java" value="191" />
+          <entry key="java" value="192" />
           <entry key="md" value="1" />
           <entry key="pom" value="1" />
           <entry key="xml" value="6" />
@@ -121,7 +38,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="191" />
+          <entry key="JAVA" value="192" />
           <entry key="Markdown" value="1" />
           <entry key="UML" value="2" />
           <entry key="XML" value="7" />
@@ -132,13 +49,14 @@
           <entry key="dummy" value="16" />
           <entry key="ft" value="74" />
           <entry key="java" value="7724" />
+          <entry key="txt" value="6" />
           <entry key="xml" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="7724" />
-          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="PLAIN_TEXT" value="22" />
           <entry key="VTL" value="74" />
           <entry key="XML" value="32" />
         </counts>
@@ -147,35 +65,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/builderchain/MemberService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="44" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/builderchain/Handler.java">
+        <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/builderchain/AuthHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-              <folding>
-                <element signature="e#192#193#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#548#549#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/builderchain/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="208">
+              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -283,7 +177,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="9" />
     <option name="y" value="27" />
     <option name="width" value="1346" />
@@ -347,18 +241,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gupao" type="462c0819:PsiDirectoryNode" />
-              <item name="chain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="design-model" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gupao" type="462c0819:PsiDirectoryNode" />
-              <item name="chain" type="462c0819:PsiDirectoryNode" />
-              <item name="builderchain" type="462c0819:PsiDirectoryNode" />
+              <item name="facade" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -371,7 +254,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587382881179" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587383165715" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -531,16 +414,23 @@
       <workItem from="1586780862579" duration="19891000" />
       <workItem from="1586950031221" duration="6712000" />
       <workItem from="1587037276692" duration="5349000" />
-      <workItem from="1587123739881" duration="30529000" />
+      <workItem from="1587123739881" duration="30882000" />
     </task>
+    <task id="LOCAL-00001" summary="设计模式提交">
+      <created>1587382834531</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587382834531</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65071000" />
+    <option name="totallyTimeSpent" value="65424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Web" order="0" sideWeight="0.5041322" side_tool="true" weight="0.25718608" />
       <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49586776" visible="true" weight="0.25718608" />
@@ -615,6 +505,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="设计模式提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="设计模式提交" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -1123,13 +1017,23 @@
         <state relative-caret-position="-142" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/builderchain/AuthHandler.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/builderchain/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="10" column="19" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/builderchain/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1140,16 +1044,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/builderchain/Handler.java">
+    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/chain/builderchain/AuthHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="208">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>

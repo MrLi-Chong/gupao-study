@@ -1,4 +1,4 @@
-package com.gupao.facade.general;
+package com.gupao.facade;
 
 public class SubSystemC {
     public void doC(){
