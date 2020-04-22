@@ -2,26 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b979e2cc-5e88-41b6-bb17-7605d520cc80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/GPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/IAtion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/PauseAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/PlayAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/SpeedAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/StopAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/iterator/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/iterator/CourseAggregateImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/iterator/ICourseAggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/iterator/Iterator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/iterator/IteratorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/iterator/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/merment/ArticleMerment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/merment/DraftBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/merment/Editor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/merment/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/AppContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/LoginState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/UnLoginState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/UserState.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-model/target/classes/com/gupao/facade/general/Facade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-model/target/classes/com/gupao/facade/general/SubSystemA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-model/target/classes/com/gupao/facade/general/SubSystemB.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-model/target/classes/com/gupao/facade/general/SubSystemC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/design-model/target/classes/com/gupao/facade/general/Test.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/design-model/target/" />
@@ -36,13 +26,14 @@
     <session id="-204443139">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.60" value="1" />
+          <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.93" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -50,7 +41,7 @@
           <entry key="AbstractCourse" value="1" />
           <entry key="ICourse" value="1" />
           <entry key="class" value="3" />
-          <entry key="java" value="207" />
+          <entry key="java" value="216" />
           <entry key="md" value="1" />
           <entry key="pom" value="1" />
           <entry key="xml" value="6" />
@@ -59,7 +50,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="207" />
+          <entry key="JAVA" value="216" />
           <entry key="Markdown" value="1" />
           <entry key="UML" value="2" />
           <entry key="XML" value="7" />
@@ -69,14 +60,14 @@
         <counts>
           <entry key="dummy" value="16" />
           <entry key="ft" value="74" />
-          <entry key="java" value="8639" />
+          <entry key="java" value="9685" />
           <entry key="txt" value="6" />
           <entry key="xml" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8639" />
+          <entry key="JAVA" value="9685" />
           <entry key="PLAIN_TEXT" value="22" />
           <entry key="VTL" value="74" />
           <entry key="XML" value="32" />
@@ -87,97 +78,66 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/GPlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="21" />
-              <folding>
-                <element signature="e#131#132#0" expanded="true" />
-                <element signature="e#167#168#0" expanded="true" />
-                <element signature="e#199#200#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#370#371#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#160#168#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/PauseAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/SpeedAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/IAtion.java">
+        <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/UserState.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+              <folding>
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/Test.java">
+        <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/AppContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/PlayAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="104">
+              <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
               <folding>
-                <element signature="e#198#199#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#283#284#0" expanded="true" />
-                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/StopAction.java">
+        <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="130">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/LoginState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+              <folding>
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/UnLoginState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -198,15 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/INote.java" />
-        <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/PythonNote.java" />
-        <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/JavaVideo.java" />
-        <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/PythonVideo.java" />
-        <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/PythonCourse.java" />
-        <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/JavaCourse.java" />
-        <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/AbstractCourse.java" />
-        <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/delegate/Employee.java" />
-        <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/delegate/EmployeeA.java" />
         <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/delegate/IEmployee.java" />
         <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/delegate/Boss.java" />
         <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/delegate/Leader.java" />
@@ -249,6 +200,15 @@
         <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/PauseAction.java" />
         <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/Controller.java" />
         <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/Test.java" />
+        <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/merment/DraftBox.java" />
+        <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/merment/ArticleMerment.java" />
+        <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/merment/Editor.java" />
+        <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/merment/Test.java" />
+        <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/LoginState.java" />
+        <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/UnLoginState.java" />
+        <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/UserState.java" />
+        <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/AppContext.java" />
+        <option value="$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/Test.java" />
       </list>
     </option>
   </component>
@@ -279,6 +239,11 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="design-model" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="study" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
@@ -299,6 +264,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -349,20 +315,19 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="gupao" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="state" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587388480758" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587543096763" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -399,13 +364,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupao.template.Test" />
+  <component name="RunManager" selected="Application.Test (2)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupao.merment.Test" />
       <module name="design-model" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gupao.template.*" />
+          <option name="PATTERN" value="com.gupao.merment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -413,12 +378,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gupao.strategy.Test" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gupao.state.Test" />
       <module name="design-model" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gupao.strategy.*" />
+          <option name="PATTERN" value="com.gupao.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -492,19 +457,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test (2)" />
-      <item itemvalue="Application.Test (3)" />
       <item itemvalue="Application.Test (4)" />
       <item itemvalue="Application.Test (5)" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Test (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test (5)" />
         <item itemvalue="Application.Test (4)" />
-        <item itemvalue="Application.Test (4)" />
-        <item itemvalue="Application.Test (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -522,7 +487,8 @@
       <workItem from="1586780862579" duration="19891000" />
       <workItem from="1586950031221" duration="6712000" />
       <workItem from="1587037276692" duration="5349000" />
-      <workItem from="1587123739881" duration="35083000" />
+      <workItem from="1587123739881" duration="35896000" />
+      <workItem from="1587469579067" duration="6929000" />
     </task>
     <task id="LOCAL-00001" summary="设计模式提交">
       <created>1587382834531</created>
@@ -535,14 +501,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69625000" />
+    <option name="totallyTimeSpent" value="77367000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Web" order="0" sideWeight="0.5041322" side_tool="true" weight="0.25718608" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49586776" visible="true" weight="0.25718608" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49586776" visible="true" weight="0.32526475" />
       <window_info id="Structure" order="2" sideWeight="0.50163937" side_tool="true" weight="0.25340393" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -554,7 +520,7 @@
       <window_info anchor="bottom" id="Spring" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.35081968" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.35081968" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.40491804" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -576,7 +542,7 @@
     </layout>
     <layout-to-restore>
       <window_info id="Web" order="0" sideWeight="0.5041322" side_tool="true" weight="0.25718608" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49586776" visible="true" weight="0.25718608" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49586776" visible="true" weight="0.32526475" />
       <window_info id="Structure" order="2" sideWeight="0.50163937" side_tool="true" weight="0.25340393" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -588,7 +554,7 @@
       <window_info anchor="bottom" id="Spring" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.3295082" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.35081968" />
+      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.35081968" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.40491804" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -634,90 +600,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/prototype/shlldow/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/prototype/deep/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/decorator/v1/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/JavaCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/bridge/AbstractCourse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding>
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/delegate/IEmployee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/delegate/Boss.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#158#159#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/delegate/Leader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/delegate/EmployeeA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/delegate/EmployeeB.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
@@ -903,12 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#613#614#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -948,12 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="e#192#193#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#548#549#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1041,68 +911,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/StopAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/PlayAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding>
-            <element signature="e#198#199#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#304#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/SpeedAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/GPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
+        <state relative-caret-position="338">
           <caret line="19" column="21" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="21" />
           <folding>
             <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
             <element signature="e#199#200#0" expanded="true" />
-            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
             <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
             <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/IAtion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="494">
           <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#160#168#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1114,10 +945,155 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/SpeedAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/IAtion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/PlayAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding>
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/StopAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/command/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        <state relative-caret-position="104">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/merment/Editor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+          <folding>
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/merment/ArticleMerment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-516">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/merment/DraftBox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#263#264#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/merment/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/LoginState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/UnLoginState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/UserState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design-model/src/main/java/com/gupao/state/AppContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="13" column="40" lean-forward="true" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
