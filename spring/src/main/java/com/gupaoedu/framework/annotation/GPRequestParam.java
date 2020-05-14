@@ -1,4 +1,4 @@
-package com.gupaoedu.mvcframework.annotation;
+package com.gupaoedu.framework.annotation;
 
 import java.lang.annotation.*;
 

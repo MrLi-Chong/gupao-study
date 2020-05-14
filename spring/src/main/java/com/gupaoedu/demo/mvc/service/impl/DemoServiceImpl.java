@@ -1,7 +1,7 @@
 package com.gupaoedu.demo.mvc.service.impl;
 
 import com.gupaoedu.demo.mvc.service.IDemoService;
-import com.gupaoedu.mvcframework.annotation.GPService;
+import com.gupaoedu.framework.annotation.GPService;
 
 /**
  * @Author Administrator
