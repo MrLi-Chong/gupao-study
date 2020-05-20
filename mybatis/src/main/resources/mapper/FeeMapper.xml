@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.test.mapper.FeeMapper">
+    <insert id="insertFee" parameterType="com.test.entity.Fee">
+        insert into fee (id,fee_amt,fee_date) values (#{fee.id},#{fee.feeAmt},#{fee.feeDate})
+    </insert>
+
+    <select id="queryFee" resultType="com.test.entity.Fee">
+        select * from fee where fee_date=#{feeDate}
+    </select>
+</mapper>
